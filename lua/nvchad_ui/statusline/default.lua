@@ -107,8 +107,7 @@ M.lsp_progress = function()
     return ""
   end
 
-  return ""
-  -- return ("%#St_LspProgress#" .. vim.lsp.status()) or ""
+  return ("%#St_LspProgress#" .. vim.lsp.status()) or ""
 end
 
 M.lsp_diagnostics = function()
